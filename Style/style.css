@@ -1,0 +1,92 @@
+* {
+    
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000814;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #edf2f4;
+    height: 100%;
+}
+
+/* Anchor tag styles*/
+a{
+    text-decoration: none;
+    color: #edf2f4;
+}
+
+/* Info Icon Styles*/
+.material-symbols-outlined {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+div.intro{
+    position: absolute;
+    top:30%;
+}
+
+div h2 span {
+    font-family: "Satisfy", cursive;
+    font-size: 90px;
+    color: #ffc857;
+}
+
+  div h1 a{
+    font-size: 80px;
+    color: #1985a1;
+  }
+  
+  div h2{
+    font-size: 40px;
+  }
+
+  div h2 a{
+    color: #f25f5c;
+  }
+
+  .satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  };
+*/
+
+/* Responsive styles for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Responsive styles for medium-sized screens (e.g., tablets) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px; /* Adjust font size for medium-sized screens */
+    }
+}
+
+/* Responsive styles for larger screens (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+    body {
+        font-size: 18px; /* Adjust font size for larger screens */
+    }
+}
