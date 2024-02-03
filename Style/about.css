@@ -1,0 +1,50 @@
+.about-body{
+    position: absolute;
+    top: 10%;
+
+}
+
+header {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+section {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+
+span.material-symbols-outlined-back {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
