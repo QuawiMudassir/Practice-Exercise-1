@@ -72,6 +72,11 @@ div h2 span {
   margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 
+div.co-span {
+  height: 100%;
+  text-align: center;
+  padding-top: 20%;
+}
 
 /*
 .satisfy-regular {
